@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+html {
+  background-color: #1e293b;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+body::-webkit-scrollbar {
+  background-color: #1e293b;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 0.25rem;
+  background-color: #ff931e;
+}
+
+@media (min-width: 768px) {
+  ::-webkit-scrollbar {
+    background-color: #1e293b;
+    height: 0.75rem;
+    width: 0.75rem;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 0.25rem;
+    background-color: #ff931e;
+  }
+}
